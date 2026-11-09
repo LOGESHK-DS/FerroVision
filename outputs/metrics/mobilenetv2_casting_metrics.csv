@@ -1,0 +1,2 @@
+accuracy,loss,precision,recall,f1,model,class_order
+0.9972028136253357,0.011581618338823318,1.0,0.9955849647521973,0.997787593460734,mobilenetv2,normal|defective

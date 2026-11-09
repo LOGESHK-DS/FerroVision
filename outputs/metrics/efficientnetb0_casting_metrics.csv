@@ -1,0 +1,2 @@
+accuracy,loss,precision,recall,f1,model,class_order
+0.9930070042610168,0.031932711601257324,1.0,0.9889624714851379,0.9944506049673595,efficientnetb0,normal|defective

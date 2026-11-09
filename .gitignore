@@ -1,0 +1,56 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+ferrovision_env/
+
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dataset files
+data/raw/
+data/processed/
+
+# Training checkpoints and temporary files
+checkpoints/
+*.ckpt
+*.checkpoint
+*.tmp
+
+# Logs (preserve project report)
+logs/*
+!logs/FerroVision.pdf
+
+# TensorFlow / Keras temporary files
+*.h5.tmp
+*.keras.tmp
+
+# Training output and cache
+wandb/
+mlruns/
+.tensorflow/
+.keras/
+
+# Temporary Python files
+*.log
+*.bak
+
+# Dataset archives
+*.zip
